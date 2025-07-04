@@ -1,0 +1,122 @@
+/* Basic Layout */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: 20px auto;
+    background: white;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    border-radius: 8px;
+}
+
+/* Navigation Bar */
+nav {
+    background-color: #333;
+    padding: 10px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Headings */
+h1, h2, h3 {
+    color: #444;
+}
+
+/* Book List */
+.book {
+    border-bottom: 1px solid #ccc;
+    padding: 10px 0;
+}
+
+.book img {
+    width: 100px;
+    height: auto;
+    margin-right: 10px;
+}
+
+.book-title {
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+.book-description {
+    color: #666;
+    font-size: 0.9em;
+}
+
+/* Buttons */
+button, input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 8px 12px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+button:hover, input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+/* Forms */
+form input, form select {
+    margin-bottom: 10px;
+    padding: 8px;
+    width: 100%;
+    max-width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/* Cart Items */
+.cart-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.cart-item img {
+    width: 80px;
+    margin-right: 10px;
+}
+
+/* Checkout */
+.checkout-summary {
+    border-top: 1px solid #ccc;
+    padding-top: 10px;
+    font-weight: bold;
+    font-size: 1.1em;
+}
+body{
+    background-color: grey;
+}
+img {
+    border: 1px solid #ccc;
+    padding: 5px;
+    margin-bottom: 10px;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
+    display: block;
+}
+
+ul li img {
+    width: 150px;
+    height: 220px;
+    object-fit: cover;
+}
+
